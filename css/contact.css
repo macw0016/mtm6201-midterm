@@ -193,3 +193,73 @@ footer p{
 footer p a {
     color:#ccc;
 }
+
+/* for desktop */
+@media only screen and (min-width: 1100px) {
+    .logo {
+        width: 99%;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        margin-top: -80px;
+    }
+
+    nav li a {
+        padding:10px;
+        font-size: 40px;
+    }
+
+    .mainbanner {
+        width: 1535px;
+        height:1000px;
+    }
+
+    .mainbanner h1 {
+        padding-top: 300px;
+        font-size: 80px;
+    }
+
+    button[type= submit] {
+        text-align: center;
+        margin-left: 700px;
+    }
+    
+    .info {
+        margin-left: 50px;
+        grid-gap: 400px;
+    }
+
+    .info h3 {
+        font-size: 29px;
+    }
+
+    .info .contact p {
+        font-size: 15px;
+    }
+    
+    .info .address p {
+        font-size: 15px;
+    }
+    
+    .info .hours p {
+        font-size: 15px;
+    }
+
+    .contact button {
+        width: 200px;
+    }
+
+    .address button {
+        width: 200px;
+    }
+
+    .media {
+       margin-right:20px;
+    }
+
+    .media a i{
+       font-size: 40px; 
+    }
+}
