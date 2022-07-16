@@ -1,0 +1,181 @@
+/* for home page */
+body {
+    max-width:max-content;  
+    margin: auto;
+}
+
+.logo img {
+  width: 35%;
+  margin-top: 7px;
+}
+
+nav ul {
+    margin-top: -35px ;
+}
+
+nav li {
+    display: inline-block;
+    padding: 6px;
+}
+
+nav ul {
+    float: right;
+}
+  
+li a {
+    color: #d07ea7;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+li a:hover {
+    color: #8fbfb2;
+}
+/* end of styling nav bar */
+
+.mainbanner img {
+    width: 100%;
+}
+
+.ourstory h1 {
+    color:#7e2363;
+    font-size: 16px ;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.ourstory p {
+    text-align: center;
+    font-size: small;
+    margin-left:85px;
+    margin-right:85px;
+    line-height: 20px;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-image:url(../images/background.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    color:#fff;
+    font-family:  'Oswald', sans-serif;
+    padding-top: 48px;
+    font-size: 22px;
+}
+
+.custom {
+    padding-top: 30px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.customheadings { 
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.customheadings h3 {
+    font-family:'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: 12px;
+    color:#d07ea7;
+}
+
+.custom img {
+    width: 70%;
+}
+
+ hr {
+    background-color: #d07ea7;
+}
+
+.info {
+    display: flex;
+    margin-left: 10px;
+    grid-gap:35px;
+}
+
+.info h3 {
+    color:#d07ea7;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+
+/* call now button */
+.contact button {
+    background-color:#d07ea7;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.contact button:hover {
+    background-color: #7e2363;
+}
+
+/* get diractions button  */
+.address button {
+    background-color:#d07ea7;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.address button:hover {
+    background-color:#7e2363;
+}
+
+.info .contact p {
+    font-size: small;
+}
+
+.info .address p {
+    font-size: small;
+}
+
+.info .hours p {
+    font-size: small;
+}
+
+.media {
+    display: flex;
+    float:right;
+}
+
+.media a i {
+    color:#d07ea7;
+    font-size: 25px ;
+    padding: 5px;
+}
+
+.media a i:hover {
+    color: #7e2363;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    font-size: smaller;
+    color: grey;
+}
+
+footer p a {
+    color:#ccc;
+    text-align: center;
+}
