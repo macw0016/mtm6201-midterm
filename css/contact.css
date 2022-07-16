@@ -76,12 +76,12 @@ input[type=text]{
   }
 
 textarea{
-        width: 99%;
-        padding: 18px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #8fbfb2;
-        box-sizing: border-box;
+    width: 99%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #8fbfb2;
+    box-sizing: border-box;
      
   }
 
